@@ -17,10 +17,10 @@ Recent npm supply-chain incidents keep landing in the same place: developer and 
 
 ## Install
 
-Install from npm:
+The package is prepared as `@foxom/hookseal`, but npm publishing currently requires a one-time password for this account. Until it is published, install from GitHub:
 
 ```sh
-npm install -D @foxom/hookseal
+npm install -D github:mikebfox/hookseal
 ```
 
 Requires Node.js 20 or newer.

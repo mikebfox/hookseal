@@ -1,0 +1,51 @@
+{
+  "name": "@foxom/hookseal",
+  "version": "0.1.0",
+  "description": "Audit npm package-lock install hooks with a small explicit allowlist.",
+  "type": "module",
+  "license": "MIT",
+  "author": "mikebfox",
+  "bin": {
+    "hookseal": "bin/hookseal.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "types": "./src/index.d.ts",
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "typecheck": "node --check src/index.js && node --check bin/hookseal.js",
+    "build": "npm run typecheck"
+  },
+  "keywords": [
+    "npm",
+    "package-lock",
+    "supply-chain",
+    "security",
+    "postinstall",
+    "lifecycle-scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikebfox/hookseal.git"
+  },
+  "homepage": "https://github.com/mikebfox/hookseal#readme",
+  "bugs": {
+    "url": "https://github.com/mikebfox/hookseal/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

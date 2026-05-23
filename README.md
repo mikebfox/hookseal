@@ -17,7 +17,7 @@ Recent npm supply-chain incidents keep landing in the same place: developer and 
 
 ## Install
 
-The package is prepared as `@foxom/hookseal`, but npm publishing is blocked in this environment because the npm registry is not reachable. Until it is published, install from GitHub after the repository is available:
+The package is prepared as `@foxom/hookseal`, but npm publishing is currently blocked by npm authentication for this machine. Until it is published, install from GitHub:
 
 ```sh
 npm install -D github:mikebfox/hookseal

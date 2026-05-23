@@ -17,10 +17,10 @@ Recent npm supply-chain incidents keep landing in the same place: developer and 
 
 ## Install
 
-The package is prepared as `@foxom/hookseal`, but npm publishing is currently blocked by npm authentication for this machine. Until it is published, install from GitHub:
+Install from npm:
 
 ```sh
-npm install -D github:mikebfox/hookseal
+npm install -D @foxom/hookseal
 ```
 
 Requires Node.js 20 or newer.
